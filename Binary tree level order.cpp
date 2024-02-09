@@ -11,7 +11,7 @@ public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
         vector<vector<int>> vec;
         Fun(root, vec, 0);
-        reverse(vec.begin(), vec.end());+
+        reverse(vec.begin(), vec.end());
         return vec;
     }
 };
